@@ -1,9 +1,9 @@
-const CACHE = 'sahaja-v1';
+const CACHE = 'sahaja-v2';
 const ASSETS = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  'https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;600;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap'
+  '/sahaja-meditation/',
+  '/sahaja-meditation/index.html',
+  '/sahaja-meditation/content.js',
+  '/sahaja-meditation/manifest.json',
 ];
 
 self.addEventListener('install', e => {
