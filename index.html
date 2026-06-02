@@ -1243,11 +1243,8 @@ const _DAYS_NORMALIZED = DAYS.map(d => ({
 
 </script>
 <script>
-// ── DATA（來自 content.js）──
-// 所有文字內容請到 content.js 修改，不需要動這裡
 
 // ── STATE ──
-const DAYS = _DAYS_NORMALIZED; // 內容來自 content.js
 let completed = JSON.parse(localStorage.getItem('sahaja_done') || '[]');
 let settings  = JSON.parse(localStorage.getItem('sahaja_settings') || '{"vibrate":true,"autoBack":false}');
 let currentDay = null;
